@@ -24,10 +24,10 @@ export default class LoginScreen extends Component {
               title="Login"
             />
             <Button
-              buttonStyle={styles.fbLoginButton}
-              onPress={() => this.onFbLoginPress()}
-              title="Login with Facebook"
-              color="#3897f1"
+              buttonStyle={styles.kakaoLoginButton}
+              onPress={() => this.onKakaoLoginPress()}
+              title="Login with KakaoTalk"
+              color="black"
             />
           </View>
         </View>
@@ -43,6 +43,10 @@ export default class LoginScreen extends Component {
   }
 
   onLoginPress() {
+
+  }
+
+  onKakaoLoginPress() {
 
   }
 

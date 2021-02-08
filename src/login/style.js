@@ -40,6 +40,12 @@ loginButton: {
   height: 45,
   marginTop: 10,
 },
+kakaoLoginButton: {
+  backgroundColor: '#fee500',
+  borderRadius: 5,
+  height: 45,
+  marginTop: 10,
+},
 fbLoginButton: {
   height: 45,
   marginTop: 10,
