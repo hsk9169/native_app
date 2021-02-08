@@ -12,7 +12,6 @@ export default class LoginScreen extends Component {
         return ( <
             KeyboardAvoidingView style = { styles.containerView }
             behavior = "padding" >
-
             <
             TouchableWithoutFeedback onPress = { Keyboard.dismiss } >
             <
@@ -58,9 +57,7 @@ export default class LoginScreen extends Component {
 
     }
 
-    onKakaoLoginPress() {
-
-    }
+    onKakaoLoginPress() {}
 
     async onFbLoginPress() {
         const { type, token } = await Expo.Facebook.logInWithReadPermissionsAsync(appId, {
